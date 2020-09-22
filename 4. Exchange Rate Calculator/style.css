@@ -1,0 +1,79 @@
+:root {
+  --primary-color: #5fbaa7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+.money-img {
+  width: 150px;
+}
+h1 {
+  color: var(--primary-color);
+}
+
+p {
+  text-align: center;
+}
+
+.btn {
+  color: #fff;
+  background: var(--primary-color);
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px 12px;
+}
+
+.currency {
+  padding: 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.currency select {
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #dedede;
+  font-size: 16px;
+  background: transparent;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjI1NXB4IiBoZWlnaHQ9IjI1NXB4IiB2aWV3Qm94PSIwIDAgMjU1IDI1NSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjU1IDI1NTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGcgaWQ9ImFycm93LWRyb3AtZG93biI+DQoJCTxwb2x5Z29uIHBvaW50cz0iMCw2My43NSAxMjcuNSwxOTEuMjUgMjU1LDYzLjc1IAkJIi8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=);
+  background-position: right 3px top 50%, 0, 0;
+  background-size: 16px auto, 100%;
+  background-repeat: no-repeat;
+}
+
+.currency input {
+  border: 0;
+  background: transparent;
+  font-size: 25px;
+  text-align: right;
+}
+
+.swap-rate-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rate {
+  color: var(--primary-color);
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+select:focus,
+input:focus,
+button:focus {
+  outline: 0;
+}
