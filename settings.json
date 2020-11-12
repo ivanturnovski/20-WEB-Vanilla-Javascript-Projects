@@ -1,0 +1,21 @@
+{
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.quickSuggestions": true,
+  "window.zoomLevel": 0,
+  "editor.fontLigatures": false,
+  "prettier.singleQuote": true,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "workbench.colorTheme": "Monokai",
+  "git.ignoreWindowsGit27Warning": true,
+  "liquid.format": true
+}
+//This goes to C:\Users\Ivan\AppData\Roaming\Code\User
