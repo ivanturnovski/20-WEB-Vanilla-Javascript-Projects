@@ -9,7 +9,7 @@
   <body>
     <div class="container">
       <h4>Your Balance</h4>
-      <h1 id="balance"></h1>
+      <h1 id="balance">$0.00</h1>
 
       <div class="inc-exp-container">
         <div>
@@ -24,9 +24,9 @@
 
       <h3>History</h3>
       <ul id="list" class="list">
-        <li class="minus">
+        <!-- <li class="minus">
           Cash<span>-$400</span><button class="delete-btn">x</button>
-        </li>
+        </li> -->
       </ul>
       <h3>Add new transaction</h3>
       <form action="" id="form">
@@ -38,7 +38,7 @@
           <label for="amount"
             >Amount<br />(negative - expense, positive - income)</label
           >
-          <input type="text" id="amount" placeholder="Enter amount..." />
+          <input type="number" id="amount" placeholder="Enter amount..." />
         </div>
         <button class="btn">Add transaction</button>
       </form>
